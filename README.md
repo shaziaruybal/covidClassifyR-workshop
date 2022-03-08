@@ -1,1 +1,1 @@
-# covidClassifyR_workshop
+# covidClassifyR workshop
