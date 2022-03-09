@@ -1,0 +1,37 @@
+---
+title: "Session 1"
+description: |
+  10th March 2022, 8:30-11:30am GMT+10
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Schedule 
+A tentative timetable for this session is provided below. 
+
+| When          | What   |
+|----------------|-------------------------------------------|
+| 08:30-09:00   | **Topic 1:** Introduction to the SARS-CoV-2 Luminex multi-antigen serology assay|
+| 09:00-9:30   | **Topic 2:** Introduction to the COVID-19 serological surveys that have been conducted in PNG|
+| 9:30-10:00 | *Break* | 
+| 11:00-11:30 | **Topic 3:** Data preparation and how to go from Luminex machine to Shiny app|
+
+# Topic 1 materials
+Slides (placholder)
+Recording (placeholder)
+
+# Topic 2 materials
+Slides (placholder)
+Recording (placeholder)
+
+# Topic 3 materials
+Slides (placholder)
+Recording (placeholder)
+
+# Acknowledgments {.appendix}
+
+This workshop was designed for Papua New Guinea Institute for Medical Research researchers and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano. 
+
+Funding for this workshop was provided by a [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources. 

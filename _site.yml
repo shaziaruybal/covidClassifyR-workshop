@@ -1,0 +1,26 @@
+name: "covidClassifyR-workshop"
+title: "covidClassifyR Workshop"
+description: |
+  Workshop on how to use the covidClassifyR Shiny web application
+output_dir: "docs"
+twitter:
+  creator: "@DrShaziaRuybal"
+navbar:
+  right:
+    - icon: fas fa-home
+      href: index.html
+    - text: "About"
+      href: index.html
+    - text: "Materials"
+      menu:
+      - text: "Session 1"
+        href: session1.html
+      - text: "Session 2"
+        href: session2.html
+      - text: "Session 3"
+        href: session3.html
+      - text: "Session 4"
+        href: session4.html
+creative_commons: CC BY-SA
+repository_url: https://github.com/shaziaruybal/covidClassifyR-workshop
+output: distill::distill_article
