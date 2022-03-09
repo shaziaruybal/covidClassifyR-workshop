@@ -23,6 +23,7 @@ navbar:
       href: instructors.html
     - text: "Workshop Materials"
       href: materials.html
+search: false
 creative_commons: CC BY-SA
 repository_url: https://github.com/shaziaruybal/covidClassifyR-workshop
 output: 
