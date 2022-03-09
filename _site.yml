@@ -3,7 +3,7 @@ title: "covidClassifyR Workshop"
 description: |
   Workshop on how to use the covidClassifyR Shiny web application
 theme: workshop-theme.css
-output_dir: "_site"
+output_dir: "docs"
 twitter:
   creator: "@DrShaziaRuybal"
 collections:
