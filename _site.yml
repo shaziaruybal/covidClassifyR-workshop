@@ -8,7 +8,7 @@ twitter:
   creator: "@DrShaziaRuybal"
 collections:
   sessions:
-    categories: false
+    categories: true
     categories_metadata: false
     authors_metadata: false
     feed_items_max: 5 
