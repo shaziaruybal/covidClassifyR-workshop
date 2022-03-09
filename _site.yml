@@ -4,6 +4,7 @@ description: |
   Workshop on how to use the covidClassifyR Shiny web application
 theme: workshop-theme.css
 output_dir: "docs"
+base_url: "htttps://shaziaruybal.github.io"
 twitter:
   creator: "@DrShaziaRuybal"
 collections:
