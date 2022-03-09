@@ -32,13 +32,13 @@ library(metathis)
 ```{r meta}
 meta() %>%
   meta_general(
-    description = "Workshop on how to use the covidClassifyR Shiny web application",
+    description = "Workshop on how to use the covidClassifyR Shiny web application for PNGIMR researchers",
     generator = "xaringan and remark.js"
   ) %>% 
-  meta_name("github-repo" = "shaziaruybal/covidclassifyr-workshop") %>% 
+  meta_name("github-repo" = "shaziaruybal/covidClassifyR-workshop") %>% 
   meta_social(
     title = "Workshop on how to use the covidClassifyR Shiny application",
-    url = "https://shaziaruybal.github.io/covidclassifyr-workshop",
+    url = "https://shaziaruybal.github.io/covidClassifyR-workshop/",
     image = "images/app_screenshot.png",
     image_alt = paste(
       "Screenshot of covidClassifyR Shiny Web application workshop"),
