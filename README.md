@@ -1,4 +1,4 @@
-# [covidClassifyR](https://shaziaruybal.shinyapps.io/covidClassifyR/) Shiny application workshop
+# covidClassifyR Shiny application workshop
 
 This is the source code for the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny app training workshop website. Here you will find all the materials needed for the workshop led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano for Papua New Guinea Institute of Medical Research researchers.  
 
