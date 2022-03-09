@@ -129,7 +129,7 @@ You will need:
   - Please check that the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app loads on your browser
 
 # Workshop materials
-All of the slides and session materials can be found in [Workshop materials](materials.html)
+All of the slides and session materials can be found in [here](materials.html)
 
 # Acknowledgments {.appendix}
 
