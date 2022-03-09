@@ -39,7 +39,7 @@ meta() %>%
   meta_social(
     title = "Workshop on how to use the covidClassifyR Shiny application",
     url = "https://shaziaruybal.github.io/covidClassifyR-workshop/",
-    image = "images/app_screenshot.png",
+    image = "https://shaziaruybal.github.io/covidClassifyR-workshop/images/app_screenshot.png",
     image_alt = paste(
       "Screenshot of covidClassifyR Shiny Web application workshop"),
     og_type = "website",
