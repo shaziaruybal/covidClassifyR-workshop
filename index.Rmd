@@ -37,11 +37,11 @@ meta() %>%
   ) %>% 
   meta_name("github-repo" = "shaziaruybal/covidclassifyr-workshop") %>% 
   meta_social(
-    title = "How to use the covidClassifyR Shiny application workshop",
+    title = "Workshop on how to use the covidClassifyR Shiny application",
     url = "https://shaziaruybal.github.io/covidclassifyr-workshop",
-    image = "",
+    image = "images/app_screenshot.png",
     image_alt = paste(
-      "Title slide of covidClassifyR Shiny Web application workshop"),
+      "Screenshot of covidClassifyR Shiny Web application workshop"),
     og_type = "website",
     og_author = "Shazia Ruybal-Pesántez",
     twitter_card_type = "summary_large_image",
