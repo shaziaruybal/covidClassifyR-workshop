@@ -33,11 +33,11 @@ In this session you will go over the theory of the multi-antigen Luminex assay a
 # [TODO]: css styling for .icon-link and .icon-link:hover
 icon_link(icon = "fas fa-file-pdf",
           text = "Slides",
-          url = "https://github.com/shaziaruybal/covidClassifyR-workshop/blob/main/_sessions/2022-03-10-session1/session1_slides.pdf")
+          url = "session1_slides.pdf")
 
 icon_link(icon = "fas fa-play-circle",
           text = "Recording",
-          url = "https://github.com/shaziaruybal/covidClassifyR-workshop/blob/main/_sessions/2022-03-10-session1/session1_recording.mp4")
+          url = "session1_recording.mp4")
 ```
   
 # Acknowledgments {.appendix}
