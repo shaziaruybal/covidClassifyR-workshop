@@ -146,11 +146,21 @@ class: inverse
 
 --
 
+- #### Automated data processing pipelines can decrease `r fontawesome::fa("clock")` time spent on manual tasks and `r fontawesome::fa("arrow-alt-circle-down")` reduce human error
+
+--
+
+- #### `r fontawesome::fa("fist-raised")` To empower researchers (especially lab-based researchers) to focus on the analysis and interpretation of their data rather than manual processing
+
+--
+
 - #### Quality control of Luminex data needs to be performed for each plate that is run and should be performed in real-time
 
 --
 
-- #### Processing the Luminex data requires customized scripts 
+- #### Processing the Luminex data requires customized scripts in `r fontawesome::fa("r-project")`
+
+  - `r fontawesome::fa("r-project")` can also be challenging due to software versions
 
 --
 
@@ -159,10 +169,6 @@ class: inverse
 --
 
 - #### Fit-for-purpose tools are required to make such data processing pipelines and advanced analyses accessible to researchers regardless of their statistical/programming background
-
---
-
-- #### Automated data processing pipelines can decrease time spent on manual tasks, reduce human error and can empower researchers to focus on the analysis and interpretation of their data rather than manual processing
 
 ---
 class: inverse, middle, center
@@ -310,7 +316,7 @@ class: inverse
 
 ### [`r icon::fa("youtube")` Recording]()   
 ### [`r icon::fa("laptop-code")` `covidClassifyR`](https://shaziaruybal.shinyapps.io/covidClassifyR)  
-### [`r fontawesome::fa("github")` Workshop materials](https://shaziaruybal.github.io/covidClassifyR-workshop/)  
+### [`r fontawesome::fa("globe")` Workshop materials](https://shaziaruybal.github.io/covidClassifyR-workshop/materials.html)  
 ### [`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/session3_slides.html)
 ]
 
