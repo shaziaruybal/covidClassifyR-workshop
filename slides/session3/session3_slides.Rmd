@@ -286,10 +286,13 @@ _These slides were created using the R packages:
 [xaringanthemer](https://github.com/gadenbuie/xaringanthemer), 
 [xaringanExtra](https://github.com/gadenbuie/xaringanExtra)_ 
 ]
+
 ---
 name: contact
-class: middle, center, inverse
+class: inverse
 
+.pull-left[
+.center[
 ### Dr Shazia Ruybal-Pesántez 
 
 <img style="border-radius: 50%;" src="https://shaziaruybal.github.io/covidClassifyR-workshop/images/shazia.png" width="250px"/>
@@ -299,14 +302,18 @@ class: middle, center, inverse
 [`r fa(name = "envelope")` ruybal.s@wehi.edu.au](mailto:ruybal.s@wehi.edu.au)  
 [`r fa(name = "twitter")` @DrShaziaRuybal](https://twitter.com/DrShaziaRuybal)
 
-.footnote[
-Session 3 Resources:
+]]
 
-[`r icon::fa("youtube")` Recording]()   
-[`r icon::fa("laptop-code")` covidClassifyR](https://shaziaruybal.shinyapps.io/covidClassifyR)  
-[`r fontawesome::fa("github")` Workshop materials](https://github.com/shaziaruybal/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html)  
-[`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/session3_slides.html)
+.pull-right[
+
+### Session 3 Resources:
+
+### [`r icon::fa("youtube")` Recording]()   
+### [`r icon::fa("laptop-code")` `covidClassifyR`](https://shaziaruybal.shinyapps.io/covidClassifyR)  
+### [`r fontawesome::fa("github")` Workshop materials](https://github.com/shaziaruybal/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html)  
+### [`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/session3_slides.html)
 ]
+
 
 ---
 class: inverse, middle, center
