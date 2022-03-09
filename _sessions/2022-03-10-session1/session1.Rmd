@@ -11,7 +11,7 @@ output:
   distill::distill_article:
     self_contained: false
 categories:
-  day1
+  - day1
 ---
 
 ```{r setup, include=FALSE}
