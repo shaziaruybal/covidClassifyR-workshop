@@ -33,7 +33,7 @@ icon_link(icon = "fas fa-file-pdf",
           url = "")
 
 icon_link(icon = "fas fa-play-circle",
-          text = "Video",
+          text = "Recording",
           url = "")
 ```
   
