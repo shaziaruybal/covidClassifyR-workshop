@@ -32,7 +32,7 @@ In this session you will be introduced to the purpose of serosurveillance resear
 
 *Note: this session includes unpublished data, so to maintain confidentiality the materials will be provided to participants directly.*
 
-<a href="sessions/2022-03-10-session3/index.html" class="btn btn-secondary" style="float: right;">Next session <i class="fas fa-chevron-circle-right"style="color:#93c54b"></i></a>  
+<a href="https://shaziaruybal.github.io/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html" class="btn btn-secondary" style="float: right;">Next session <i class="fas fa-chevron-circle-right"style="color:#93c54b"></i></a>  
 
 # Acknowledgments {.appendix}
 

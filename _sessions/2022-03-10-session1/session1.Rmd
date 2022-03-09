@@ -40,7 +40,7 @@ icon_link(icon = "fas fa-play-circle",
           url = "session1_recording.mp4")
 ```
   
-<a href="sessions/2022-03-10-session2/index.html" class="btn btn-secondary" style="float: right;">Next session <i class="fas fa-chevron-circle-right"style="color:#93c54b"></i></a>  
+<a href="https://shaziaruybal.github.io/covidClassifyR-workshop/sessions/2022-03-10-session2/index.html" class="btn btn-secondary" style="float: right;">Next session <i class="fas fa-chevron-circle-right"style="color:#93c54b"></i></a>  
 
 # Acknowledgments {.appendix}
 
