@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>htttps://shaziaruybal.github.io/</loc>
-    <lastmod>2022-03-09T17:58:03+11:00</lastmod>
+    <lastmod>2022-03-09T20:37:54+11:00</lastmod>
+  </url>
+  <url>
+    <loc>htttps://shaziaruybal.github.io/instructors.html</loc>
+    <lastmod>2022-03-09T20:35:16+11:00</lastmod>
   </url>
   <url>
     <loc>htttps://shaziaruybal.github.io/materials.html</loc>
@@ -10,14 +14,14 @@
   </url>
   <url>
     <loc>htttps://shaziaruybal.github.io/sessions/2022-03-10-session1/</loc>
-    <lastmod>2022-03-09T17:53:36+11:00</lastmod>
+    <lastmod>2022-03-09T20:32:14+11:00</lastmod>
   </url>
   <url>
     <loc>htttps://shaziaruybal.github.io/sessions/2022-03-10-session2/</loc>
-    <lastmod>2022-03-09T17:44:09+11:00</lastmod>
+    <lastmod>2022-03-09T20:32:19+11:00</lastmod>
   </url>
   <url>
     <loc>htttps://shaziaruybal.github.io/sessions/2022-03-10-session3/</loc>
-    <lastmod>2022-03-09T17:44:14+11:00</lastmod>
+    <lastmod>2022-03-09T20:32:24+11:00</lastmod>
   </url>
 </urlset>

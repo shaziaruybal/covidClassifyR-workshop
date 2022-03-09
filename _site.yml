@@ -19,6 +19,8 @@ navbar:
       href: index.html
     - text: "About"
       href: index.html
+    - text: "Instructors"
+      href: instructors.html
     - text: "Workshop Materials"
       href: materials.html
 creative_commons: CC BY-SA
