@@ -279,7 +279,7 @@ class: middle, center, inverse
 [`r fa(name = "envelope")` ruybal.s@wehi.edu.au](mailto:ruybal.s@wehi.edu.au)
 
 .footnote[
-[`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR/slides/session3/session3_slides.html)  
+[`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/session3_slides.html)  
 [`r icon::fa("youtube")` Recording]()   
 [`r fontawesome::fa("github")` Workshop materials](https://github.com/shaziaruybal/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html)
 ]
