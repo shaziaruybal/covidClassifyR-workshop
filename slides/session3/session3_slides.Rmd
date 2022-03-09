@@ -68,6 +68,7 @@ xaringanExtra::use_panelset()
 xaringanExtra::use_clipboard()
 # xaringanExtra::use_share_again()
 xaringanExtra::use_webcam()
+xaringanExtra::use_broadcast()
 # xaringanExtra::use_progress_bar(color = "blue", location = "bottom")
 ```
 
