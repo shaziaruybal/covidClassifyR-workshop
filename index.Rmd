@@ -3,7 +3,7 @@ title: "covidClassifyR Workshop"
 author: 
 - name: Shazia Ruybal-Pesántez, PhD
   url: https://shaziaruybal.com
-  affiliation: Walter & Eliza Hall Institute of Medical Research/Burnet Institute, Australia
+  affiliation: Walter & Eliza Hall Institute/Burnet Institute, Australia
   affiliation_url: "https://www.burnet.edu.au/people/701_shazia_ruybal"
 - name: Maria Ome-Kaius, MD PhD
   affiliation: Papua New Guinea Institute of Medical Research, PNG
