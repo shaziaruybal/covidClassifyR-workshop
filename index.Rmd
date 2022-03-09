@@ -104,9 +104,9 @@ In this four-day workshop you will learn about the data generated using the COVI
 
 - **Day 4:** 
 
-  - Session 1: Recap of data QC and classification
-  - Session 2: How to visualize your data in the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app
-  - Session 3: Bring your own data to work on
+  - Session 10: Recap of data QC and classification
+  - Session 11: How to visualize your data in the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app
+  - Session 12: Bring your own data to work on
   
 <aside>
 **Day 4 leaders:** <br/> Dr Ruybal-Pesántez <br/><br/>
@@ -129,7 +129,7 @@ You will need:
   - Please check that the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app loads on your browser
 
 # Workshop materials
-All of the slides and session materials can be found in [Workshop materials](docs/materials.html)
+All of the slides and session materials can be found in [Workshop materials](materials.html)
 
 # Acknowledgments {.appendix}
 

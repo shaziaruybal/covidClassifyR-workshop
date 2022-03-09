@@ -9,7 +9,7 @@ twitter:
 collections:
   sessions:
     categories: true
-    categories_metadata: false
+    categories_metadata: true
     authors_metadata: false
     feed_items_max: 5 
 navbar:
