@@ -57,7 +57,7 @@ This is the website for all the materials needed for the four-day workshop to tr
 knitr::include_graphics("images/pngimr_logo.png")
 ```
 
-```{r, out.height=45}
+```{r, out.height=40}
 knitr::include_graphics("images/wehi_logo.png")
 ```
 
