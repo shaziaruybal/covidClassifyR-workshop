@@ -1,0 +1,41 @@
+---
+title: "Session 3: Introduction to the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application"
+subtitle: "covidClassifyR Shiny app workshop for researchers from PNGIMR and partner institutions"  
+author: 
+  - "Dr Shazia Ruybal-Pesántez"
+date: '2022-03-10'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      titleSlideClass: ["left", "bottom", "my-title"]
+      beforeInit: ["https://platform.twitter.com/widgets.js"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
