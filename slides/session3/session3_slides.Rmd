@@ -310,7 +310,7 @@ class: inverse
 
 ### [`r icon::fa("youtube")` Recording]()   
 ### [`r icon::fa("laptop-code")` `covidClassifyR`](https://shaziaruybal.shinyapps.io/covidClassifyR)  
-### [`r fontawesome::fa("github")` Workshop materials](https://github.com/shaziaruybal/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html)  
+### [`r fontawesome::fa("github")` Workshop materials](https://shaziaruybal.github.io/covidClassifyR-workshop/)  
 ### [`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/session3_slides.html)
 ]
 
