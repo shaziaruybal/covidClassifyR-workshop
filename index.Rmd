@@ -13,7 +13,7 @@ author:
   affiliation_url: https://www.burnet.edu.au/people/701_shazia_ruybal
 date: March 8 2022
 description: |
-  A four-day workshop on how to use the covidClassifyR Shiny web application, designed for Papua New Guinea Institute of Medical Research researchers
+  A four-day workshop on how to use the covidClassifyR Shiny web application, designed for researchers from Papua New Guinea Institute of Medical Research and partner institutions
 site: distill::distill_website
 ---
 
@@ -32,7 +32,7 @@ library(metathis)
 ```{r meta}
 meta() %>%
   meta_general(
-    description = "Workshop on how to use the covidClassifyR Shiny web application for PNGIMR researchers",
+    description = "Workshop on how to use the covidClassifyR Shiny web application for researchers from PNGIMR and partner institutions",
     generator = "xaringan and remark.js"
   ) %>% 
   meta_name("github-repo" = "shaziaruybal/covidClassifyR-workshop") %>% 
@@ -50,7 +50,7 @@ meta() %>%
 ```
 
 # Welcome
-This is the website for all the materials needed for the four-day workshop to train scientific research officers on how to use the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano for the Papua New Guinea Institute of Medical Research. Meet your instructors [here](instructors.html). Funding for the development of [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) and the related training workshops for PNGIMR researchers was generously provided by a [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.
+This is the website for all the materials needed for the four-day workshop to train scientific research officers on how to use the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano for researchers from the Papua New Guinea Institute of Medical Research and partner institutions. Meet your instructors [here](instructors.html). Funding for the development of [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) and the related training workshops for PNGIMR researchers was generously provided by a [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.
 
 <aside>
 ```{r, out.height=60}
@@ -133,7 +133,7 @@ All of the slides and session materials can be found in [here](materials.html).
 
 # Acknowledgments {.appendix}
 
-This workshop was designed for Papua New Guinea Institute for Medical Research researchers and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano. 
+This workshop was designed for researchers from the Papua New Guinea Institute for Medical Research and partner institutions, and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano. 
 
 Funding for this workshop was provided by a [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources. 
 

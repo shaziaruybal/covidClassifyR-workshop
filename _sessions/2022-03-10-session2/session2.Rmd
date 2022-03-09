@@ -36,6 +36,6 @@ In this session you will be introduced to the purpose of serosurveillance resear
 
 # Acknowledgments {.appendix}
 
-This workshop was designed for Papua New Guinea Institute for Medical Research researchers and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano. 
+This workshop was designed for researchers from the Papua New Guinea Institute for Medical Research and partner institutions, and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano. 
 
 Funding for this workshop was provided by a [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources. 
