@@ -30,6 +30,7 @@ Maria is a Senior Research Clinician at the Vector-Borne Disease Unit at the Pap
 **Contact:** maria.ome@pngimr.org.pg
 </aside>
 
+
 **Shazia Ruybal-Pesántez, PhD**
 
 Shazia is a [Research Officer at Walter and Eliza Hall Institute of Medical Research and Burnet Institute](https://www.burnet.edu.au/people/701_shazia_ruybal) in Melbourne, Australia. She developed the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny application and has supported the PNGIMR teams with COVID-19 data analysis. Shazia will be leading [Session 3](sessions/2022-03-10-session3/index.html) and Sessions 4-12. 
