@@ -1,5 +1,5 @@
 ---
-title: "covidClassifyR Shiny app workshop for PNGIMR researchers"
+title: "covidClassifyR Shiny app workshop"
 author: 
 - name: Fiona Angrisano, PhD
   affiliation: Burnet Institute, Australia
@@ -13,7 +13,7 @@ author:
   affiliation_url: https://www.burnet.edu.au/people/701_shazia_ruybal
 date: March 8 2022
 description: |
-  A four-day workshop on how to use the covidClassifyR Shiny web application, designed for Papua New Guinea Institute of Medical Research scientific researchers
+  A four-day workshop on how to use the covidClassifyR Shiny web application, designed for Papua New Guinea Institute of Medical Research researchers
 site: distill::distill_website
 ---
 
@@ -124,11 +124,12 @@ A tutorial for how to use the application can be accessed [here](https://shaziar
 You are welcome to take a look at the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app before the workshop and/or the [`covidClassifyR` tutorial](https://shaziaruybal.shinyapps.io/covidclassifyr).
 
 You will need:
+
 - laptop with internet connection
   - Please check that the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app loads on your browser
 
 # Workshop materials
-All of the slides and session materials can be found in [Workshop materials](#materials.html)
+All of the slides and session materials can be found in [Workshop materials]()
 
 # Acknowledgments {.appendix}
 
