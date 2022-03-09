@@ -2,12 +2,11 @@
 title: "Session 3: Introduction to the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application"
 author: 
   - "Dr Shazia Ruybal-Pesántez"
-institute: "Presented at the covidClassifyR Shiny app workshop for researchers from PNGIMR and partner institutions"  
+institute: "Presented at the [covidClassifyR Shiny app workshop](https://shaziaruybal.github.io/covidClassifyR-workshop) for researchers from PNGIMR and partner institutions"  
 date: '2022-03-10'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
-    # css: ["default", "default-fonts", "robot"]
     nature:
       slideNumberFormat: "%current%/%total%"
       highlightStyle: github
@@ -40,10 +39,26 @@ library(countdown)
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
+# style_duo_accent(
+#   primary_color = "#1381B0",
+#   secondary_color = "#1c5253",
+#   link_color = "#8d9393",
+#   inverse_header_color = "#FFFFFF"
+# )
+
 style_duo_accent(
-  primary_color = "#1381B0",
-  secondary_color = "#1c5253",
-  inverse_header_color = "#FFFFFF"
+  primary_color = "#2372B9",
+  secondary_color = "#174a79",
+  inverse_header_color = "#FFFFFF",  
+  header_color = "#2372B9", 
+  code_highlight_color = "#93c54b",
+  code_inline_color = "#93c54b",
+  text_color = "#3d3d3d", 
+  link_color = "#93c54b", 
+  inverse_link_color =  "#93c54b",
+  header_font_google = google_font("Roboto"),
+  text_font_google   = google_font("News Cycle", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
 )
 ```
 
@@ -51,7 +66,7 @@ style_duo_accent(
 xaringanExtra::use_scribble()
 xaringanExtra::use_panelset()
 xaringanExtra::use_clipboard()
-xaringanExtra::use_share_again()
+# xaringanExtra::use_share_again()
 xaringanExtra::use_webcam()
 # xaringanExtra::use_progress_bar(color = "blue", location = "bottom")
 ```
@@ -65,7 +80,7 @@ meta() %>%
       "A four-day workshop on how to use the covidClassifyR Shiny web application",
       "Created for researchers from the Papua New Guinea Institute of Medical Research and partner institutions"
     ),
-    url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3",
+    url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/session3_slides.html",
     image = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/img/social-share-card.png",
     image_alt = paste(
       "Title slide of Session 3: Introduction to the covidClassifyR Shiny web application", 
@@ -93,16 +108,16 @@ class: left
 
 # Recap
 
-### `r fontawesome::fa("check-square")` *Session 1* gave you an overview of the Luminex technology and the COVID-19 multi-antigen serological assay that was established in PNG
+### `r fontawesome::fa("check-square")` **Session 1** gave you an overview of the Luminex technology and the COVID-19 multi-antigen serological assay that was established in PNG
 
 --
 
-### `r fontawesome::fa("check-square")` *Session 2* gave you an overview of the purpose of serosurveillance and insights into the COVID-19 sero-surveys that have been carried out in PNG 
+### `r fontawesome::fa("check-square")` **Session 2** gave you an overview of the purpose of serosurveillance and insights into the COVID-19 sero-surveys that have been carried out in PNG 
 
 --
 
 .footnote[
-For the materials for sessions 1 and 2 see the [`r fontawesome::fa("external-link-alt")`](https://shaziaruybal.github.io/covidClassifyR-workshop/) 
+For the materials for sessions 1 and 2 see the [workshop website `r fontawesome::fa("external-link-alt")`](https://shaziaruybal.github.io/covidClassifyR-workshop/) 
 ]
 ---
 
@@ -126,7 +141,7 @@ class: center
 
 ---
 class: inverse
-# Why was covidClassifyR developed?
+# Why was [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) developed?
 
 --
 
@@ -153,12 +168,12 @@ class: inverse, middle, center
 
 # `r fontawesome::fa("laptop-code")`
 
-## covidClassifyR was developed fit-for-purpose to streamline the processing of serological data generated using the COVID-19 multi-antigen serological assay. 
+## [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) was developed fit-for-purpose to streamline the processing of serological data generated using the COVID-19 multi-antigen serological assay
 
 ---
 class: inverse
 
-## covidClassifyR allows you to:
+## [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) allows you to:
 
 --
 
@@ -221,7 +236,7 @@ We will cover how to interpet and visualize your data using the built-in interac
 ---
 class: left
 
-# Your turn
+# `r fontawesome::fa("user-clock")` Your turn
 
 Go to the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application by clicking [here `r fontawesome::fa("external-link-alt")`](https://shaziaruybal.shinyapps.io/covidclassifyr).
 
@@ -235,7 +250,7 @@ countdown(minutes = 5)
 
 --
 
-### `r fontawesome::fa("check-square")` Access the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application
+### `r fontawesome::fa("check-square")` Access the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application [`r fontawesome::fa("external-link-alt")`](https://shaziaruybal.shinyapps.io/covidclassifyr)
 
 --
 
@@ -261,27 +276,35 @@ countdown(minutes = 5)
 
 *We are extremely grateful for financial support to develop and host the covidClassifyR Shiny web application, and to host these virtual workshops through the [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.*
 
-.footnote[These slides were created using the R packages:  
-[**xaringan**](https://github.com/yihui/xaringan), 
-[**xaringanthemer**](https://github.com/gadenbuie/xaringanthemer), 
-[**xaringanExtra**](https://github.com/gadenbuie/xaringanExtra) 
+The scripts and functions used in [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) were developed by Shazia Ruybal-Pesántez, with contributions from the following researchers: Eamon Conway, Connie Li Wan Suen, Narimane Nekkab and Michael White.
+
+
+.footnote[
+_These slides were created using the R packages:  
+[xaringan](https://github.com/yihui/xaringan), 
+[xaringanthemer](https://github.com/gadenbuie/xaringanthemer), 
+[xaringanExtra](https://github.com/gadenbuie/xaringanExtra)_ 
 ]
 ---
 name: contact
 class: middle, center, inverse
 
-### Shazia Ruybal-Pesántez 
+### Dr Shazia Ruybal-Pesántez 
 
 <img style="border-radius: 50%;" src="https://shaziaruybal.github.io/covidClassifyR-workshop/images/shazia.png" width="250px"/>
 
 #### Contact details
 
-[`r fa(name = "envelope")` ruybal.s@wehi.edu.au](mailto:ruybal.s@wehi.edu.au)
+[`r fa(name = "envelope")` ruybal.s@wehi.edu.au](mailto:ruybal.s@wehi.edu.au)  
+[`r fa(name = "twitter")` @DrShaziaRuybal](https://twitter.com/DrShaziaRuybal)
 
 .footnote[
-[`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/session3_slides.html)  
+Session 3 Resources:
+
 [`r icon::fa("youtube")` Recording]()   
-[`r fontawesome::fa("github")` Workshop materials](https://github.com/shaziaruybal/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html)
+[`r icon::fa("laptop-code")` covidClassifyR](https://shaziaruybal.shinyapps.io/covidClassifyR)  
+[`r fontawesome::fa("github")` Workshop materials](https://github.com/shaziaruybal/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html)  
+[`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session3/session3_slides.html)
 ]
 
 ---
