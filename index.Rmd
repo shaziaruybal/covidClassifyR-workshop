@@ -1,16 +1,16 @@
 ---
 title: "covidClassifyR Workshop"
 author: 
-- name: Shazia Ruybal-Pesántez, PhD
-  url: https://shaziaruybal.com
-  affiliation: Walter & Eliza Hall Institute/Burnet Institute, Australia
-  affiliation_url: "https://www.burnet.edu.au/people/701_shazia_ruybal"
-- name: Maria Ome-Kaius, MD PhD
-  affiliation: Papua New Guinea Institute of Medical Research, PNG
-  affiliation_url: https://www.pngimr.org.pg
 - name: Fiona Angrisano, PhD
   affiliation: Burnet Institute, Australia
   affiliation_url: https://www.burnet.edu.au/people/697_fiona_angrisano
+- name: Maria Ome-Kaius, MD PhD
+  affiliation: Papua New Guinea Institute of Medical Research, PNG
+  affiliation_url: https://www.pngimr.org.pg
+- name: Shazia Ruybal-Pesántez, PhD
+  url: https://shaziaruybal.com
+  affiliation: Walter & Eliza Hall Institute/Burnet Institute, Australia
+  affiliation_url: https://www.burnet.edu.au/people/701_shazia_ruybal
 date: March 8 2022
 description: |
   A four-session workshop on how to use the covidClassifyR Shiny web application, designed for Papua New Guinea Institute of Medical Research scientific researchers
@@ -116,11 +116,17 @@ This workshop has four sessions where you will learn about the data generated us
 # Before you start
 REQUIREMENTS? Laptop, data package (to be provided)
 
-# About the app
-Some details here and link to app and tutorial
+# About the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app
+This fit-for-purpose analytical tool was developed to streamline the processing of serological data generated using a validated high-throughput multiplex serological assay for measuring antibodies to SARS-CoV-2 (Mazhari et al 2021). This tool also aims to make the downstream processing, quality control and interpretation of the raw data generated from this serological assay accessible to all researchers without the need for a specialist background in statistical methods and advanced programming. 
+
+You can access the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application [here](https://shaziaruybal.shinyapps.io/covidclassifyr).
+
+A tutorial for how to use the application can be accessed [here](https://shaziaruybal.shinyapps.io/covidclassifyr) via the "Tutorial" tab.
+
+a fit-for-purpose tool to support COVID-19 sero-surveillance via serological data processing and statistical analysis
 
 # Workshop materials
-You can access all the slides and session materials [here](#materials)
+All of the slides and session materials can be found in the "Materials" tab. 
 
 # Acknowledgments {.appendix}
 
