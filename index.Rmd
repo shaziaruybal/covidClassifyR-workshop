@@ -50,9 +50,7 @@ meta() %>%
 ```
 
 # Welcome
-This is the website for all the materials needed for the four-day workshop to train scientific research officers on how to use the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application created by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano for the Papua New Guinea Institute of Medical Research. Meet your instructors [here](instructors.html).
-
-Funding for the development of [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) and the related training workshops for PNGIMR researchers was generously provided by a [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.
+This is the website for all the materials needed for the four-day workshop to train scientific research officers on how to use the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny web application created by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano for the Papua New Guinea Institute of Medical Research. Meet your instructors [here](instructors.html). Funding for the development of [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) and the related training workshops for PNGIMR researchers was generously provided by a [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.
 
 <aside>
 ```{r, out.height=60}
