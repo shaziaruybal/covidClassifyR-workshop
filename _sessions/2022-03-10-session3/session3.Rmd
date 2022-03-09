@@ -1,7 +1,7 @@
 ---
 title: "Session 3"
 description: |
-  Introduction to the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny application
+  Introduction to the covidClassifyR Shiny application
 author: 
 - name: Shazia Ruybal-Pesántez, PhD
   url: https://shaziaruybal.com
@@ -12,7 +12,8 @@ output:
   distill::distill_article:
     self_contained: false
 categories:
-  - day1
+  - "Day 1"
+citation: false
 ---
 
 ```{r setup, include=FALSE}
