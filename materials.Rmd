@@ -1,0 +1,8 @@
+---
+title: "Workshop Materials"
+description: |
+  Here you can find all the materials for each workshop session
+twitter:
+  creator: "@DrShaziaRuybal"
+listing: sessions
+---
