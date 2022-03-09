@@ -116,6 +116,9 @@ This workshop has four sessions where you will learn about the data generated us
 # Before you start
 REQUIREMENTS? Laptop, data package (to be provided)
 
+# About the app
+Some details here and link to app and tutorial
+
 # Workshop materials
 You can access all the slides and session materials [here](#materials)
 
