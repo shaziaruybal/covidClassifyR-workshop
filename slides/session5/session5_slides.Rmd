@@ -143,7 +143,7 @@ class: center
 ---
 class: inverse, middle, center
 
-# `r fontawesome::fa("file-excel")`
+# `r fontawesome::fa("clipboard-check")`
 
 ## Quality control
 
@@ -203,7 +203,7 @@ In general, each blank sample should have <50 MFI for each antigen, if they are 
 
 ---
 
-# Check your plate bead counts
+# Check your model results
 
 .left-column[
 The automated data processing in this app allows you to convert your median fluorescence intensity (MFI) data into relative antibody units (RAU) by fitting a 5-parameter logistic function to the standard curve on a per-antigen level. 
@@ -227,6 +227,8 @@ The results from the data processing are displayed in an interactive table withi
 `r fa("check-square")` Scroll to the right to explore data for all antigens
 
 `r fa("check-square")` Navigate to different pages to view all samples
+
+`r fa("check-square")` Sort & filter as needed!
 ]
 
 .right-column[
@@ -238,7 +240,7 @@ The results from the data processing are displayed in an interactive table withi
 
 # `r fa("laptop-code")` Demo
 
-<video width="1530" height="610" controls>
+<video width="1330" height="410" controls>
   <source src="screen_records/qc_demo.mp4" type="video/mp4"> 
 </video>
 

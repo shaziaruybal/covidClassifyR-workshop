@@ -21,7 +21,7 @@
   {
     "path": "sessions/2022-03-11-session5/",
     "title": "Session 5",
-    "description": "How to perform quality control of your data using the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app",
+    "description": "How to perform quality control of your data using the covidClassifyR app",
     "author": [
       {
         "name": "Shazia Ruybal-Pesántez, PhD",
@@ -32,7 +32,7 @@
     "categories": [],
     "contents": "\n\n\n\nDescription:\nIn this session you will go over how to perform quality control of your data using the covidClassifyR app and how to interpret the automated quality control plots.\n Session details:\n11th March 2022, 09:00-09:30-am GMT+10\n Materials:\n\n Slides Recording\n\nAcknowledgments\nThis workshop was designed for Papua New Guinea Institute for Medical Research researchers and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano.\nFunding for this workshop was provided by a Regional Collaborations Programme COVID-19 Digital Grant from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-03-10T23:54:56+11:00",
+    "last_modified": "2022-03-11T00:30:05+11:00",
     "input_file": {}
   },
   {
