@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>htttps://shaziaruybal.github.io/</loc>
-    <lastmod>2022-03-09T21:33:13+11:00</lastmod>
+    <lastmod>2022-03-10T17:33:01+11:00</lastmod>
   </url>
   <url>
     <loc>htttps://shaziaruybal.github.io/instructors.html</loc>
@@ -11,6 +11,10 @@
   <url>
     <loc>htttps://shaziaruybal.github.io/materials.html</loc>
     <lastmod>2022-03-09T15:20:34+11:00</lastmod>
+  </url>
+  <url>
+    <loc>htttps://shaziaruybal.github.io/sessions/2022-03-11-session4/</loc>
+    <lastmod>2022-03-10T11:53:56+11:00</lastmod>
   </url>
   <url>
     <loc>htttps://shaziaruybal.github.io/sessions/2022-03-10-session1/</loc>
@@ -22,6 +26,6 @@
   </url>
   <url>
     <loc>htttps://shaziaruybal.github.io/sessions/2022-03-10-session3/</loc>
-    <lastmod>2022-03-10T02:11:12+11:00</lastmod>
+    <lastmod>2022-03-10T09:25:28+11:00</lastmod>
   </url>
 </urlset>

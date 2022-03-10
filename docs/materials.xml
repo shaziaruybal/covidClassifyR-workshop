@@ -7,7 +7,16 @@
     <description>Workshop on how to use the covidClassifyR Shiny web application
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Session 4</title>
+      <dc:creator>Shazia Ruybal-Pesántez, PhD</dc:creator>
+      <link>htttps://shaziaruybal.github.io/sessions/2022-03-11-session4</link>
+      <description>Data preparation and how to go from Luminex machine to [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny app</description>
+      <category>Day 2</category>
+      <guid>htttps://shaziaruybal.github.io/sessions/2022-03-11-session4</guid>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Session 1</title>
       <dc:creator>Fiona Angrisano, PhD</dc:creator>

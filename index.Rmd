@@ -69,6 +69,7 @@ knitr::include_graphics("images/burnet_logo.png")
 # Overview
 In this four-day workshop you will learn about the data generated using the COVID-19 serology laboratory assay (also described in [Mazhari et al 2021](https://doi.org/10.3390/mps4040072)), the COVID-19 serological surveys that have been carried out by PNGIMR, and an overview of how to use the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny application to process and analyse data to support COVID-19 research efforts. This workshop will be held via Zoom and in-person at PNGIMR Port Moresby and Goroka offices. Data packages for connectivity during the workshops and for use when using the Shiny application will be provided to all participants. 
 
+# Schedule
 - **Day 1:** 
 
   - [Session 1](sessions/2022-03-10-session1/index.html): Introduction to the SARS-CoV-2 Luminex multi-antigen serology assay
