@@ -269,7 +269,7 @@ class: inverse, middle, center
 ![](img/import_screenshot.png)
 ]
 
-.panel[.panel-name[Experiment info test]
+.panel[.panel-name[Experiment info]
 
 .pull-left[
 ```{r, echo=F, out.height = 400, out.width=350}
@@ -278,8 +278,8 @@ knitr::include_graphics("img/import_buttons.png")
 ]
 
 .pull-right[
-- You can change the experiment name by typing directly in the text box with the experiment name that best describes your particular data/Luminex run. For example, you can label it as “MyExperimentName_Plate01”. 
-- The analysis date will default to Today’s date, but you can modify this by clicking on the date and selecting the date in the calendar. 
+-Type directly in the text box to change the experiment name that best describes your particular data/Luminex run. For example, you can label it as “MyExperimentName_Plate01”. 
+- The analysis date will default to today’s date, but you can modify this by clicking on the date and selecting the date in the calendar. 
 - You can also insert experiment notes to provide more details or notes, as necessary. These notes will be displayed on your quality control report when you download it.
 
 **`r fontawesome::fa("lightbulb")` Tip: ** Try to keep your experiment name/filename free of spaces and instead use “_” or “-”. All of your downloadable files (processed data, quality control report, etc) will be labeled as “experiment1_2022-03-06”.
@@ -353,7 +353,11 @@ Use the browse button to navigate to your files and upload them.
 ]
 ---
 
-SCREEN RECORD
+# `r fa("laptop-code")` Demo
+
+<video width="1530" height="610" controls>
+  <source src="screen_records/import_data_demo.mp4" type="video/mp4"> 
+</video>
 
 ---
 
