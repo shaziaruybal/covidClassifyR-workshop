@@ -32,7 +32,7 @@ In this session you will go over how to perform quality control of your data usi
 # [TODO]: css styling for .icon-link and .icon-link:hover
 icon_link(icon = "fas fa-file-pdf",
           text = "Slides",
-          url = "")
+          url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session5/session5_slides.html")
 
 icon_link(icon = "fas fa-play-circle",
           text = "Recording",
