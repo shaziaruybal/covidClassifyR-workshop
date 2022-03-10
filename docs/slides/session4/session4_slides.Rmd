@@ -294,10 +294,17 @@ knitr::include_graphics("img/import_buttons.png")
 ]
 
 .panel[.panel-name[Upload your files]
+
+.pull-left[
+```{r, echo=F, out.height = 400, out.width=350}
+knitr::include_graphics("img/import_uploaded_data.png")
+```
+]
+.pull-right[
 Use the browse button to navigate to your files and upload them. 
 
 **`r fontawesome::fa("lightbulb")` Tip: ** The bar should look blue when the upload is successful. If you get an error, make sure you are uploading .xlsx files.
-]
+]]
 ]
 
 ---
@@ -313,12 +320,14 @@ Use the browse button to navigate to your files and upload them.
 
 .pull-left[
 ### You will notice that the “Check the raw data” tab has populated with a preview of your raw data file. 
-]
 
-.pull-right[
 `r fa("check-square")` Check whether it looks as expected. You can scroll as needed.
 
 `r fa("check-square")` Check that the raw data file you uploaded was the correct one, by looking at the “Raw data filename” directly under the tab. If it is the wrong one you can click on “Browse” again and upload the correct file.
+]
+
+.pull-right[
+![](img/check_raw_data.png)
 ]
 ---
 
@@ -326,21 +335,19 @@ Use the browse button to navigate to your files and upload them.
 
 .pull-left[
 ### You can use the “Check the run info” tab to only look at run specifications and check that they are expected. 
+
+`r fa("check-square")` Check that the Batch, ProtocolName and sample volume are correct and labeled as you expect them to be
 ]
 
 .pull-right[
-`r fa("check-square")` Check that the Batch, ProtocolName and sample volume are correct and labeled as you expect them to be
+![](img/check_run_info.png)
 ]
 
 ---
 # Check the plate layout
 
 .pull-left[
-### You can use the “Check the plate layout” tab to make sure the plate layout looks as expected. It is very important to make sure your samples are labeled correctly so that they are interpreted correctly by the app. 
-]
-
-.pull-right[
-`r fa("check-square")` Make sure that your sample labels in the plate layout are as follows:
+You can use the “Check the plate layout” tab to make sure the plate layout looks as expected. It is very important to make sure your samples are labeled correctly so that they are interpreted correctly by the app:
 
 - **Standards:** labels start with ‘S’ and then a number as required (e.g. S1, S2, S3 or Standard1, Standard2, Standard3)
 
@@ -348,9 +355,13 @@ Use the browse button to navigate to your files and upload them.
 
 - **Unknown samples:** label your unknown samples according to your specific sample codes (e.g. ABC001, ABC002)
 
-`r fa("check-square")`Check that the plate layout file you uploaded was the correct one, by looking at the “Plate layout filename” directly under the tab. If it is the wrong one you can click on “Browse” again and upload the correct file.
+`r fa("check-square")` Check that the plate layout file you uploaded was the correct one, by looking at the “Plate layout filename” directly under the tab. If it is the wrong one you can click on “Browse” again and upload the correct file.
 
 `r fa("check-square")` Make sure that there are no extra cells filled out other than the plate wells and sample names. 
+]
+
+.pull-right[
+![](img/check_plate.png)
 ]
 ---
 
