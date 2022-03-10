@@ -202,13 +202,61 @@ In general, each blank sample should have <50 MFI for each antigen, if they are 
 ]
 
 ---
+.pull-left[
+## Automated curve fitting for our Luminex multiplex assay
+
+The standard curve on each plate allows us to use the median fluorescence intensity (MFI) values recorded for each standard known concentration/dilution to estimate the antibody concentration for each unknown sample. 
+
+When plotting the relationship between MFI and antibody concentration for our multiplex serological assay, it results in "S"-shaped curves, which is due to the non-linear relationship between MFI and antibody concentration. 
+
+To account for the assymetry in this non-linear relationship, we can fit a logistic regression model using 4 parameters (4PL).  
+
+.footenote[
+.bottom[
+_[Resource `r fontawesome::fa("external-link-alt")`](https://www.biolegend.com/en-us/blog/curve-fitting-for-immunoassays-legendplex)_
+]]
+]
+
+.pull-right[
+
+```{r echo=F, out.height=550, out.width=650}
+knitr::include_graphics("img/4pl_model.png")
+```
+
+
+]
+
+---
+.pull-left[
+## Automated curve fitting for our Luminex multiplex assay
+
+However, for more complex multiplex assays it is more appropriate to also account for the asymmetry to provide a better fit (by including the asymmetry factor). This is called a 5-parameter logistic (5PL) regression model.
+
+.footnote[
+.bottom[
+_[Resource `r fontawesome::fa("external-link-alt")`](https://www.biolegend.com/en-us/blog/curve-fitting-for-immunoassays-legendplex)_
+]]
+]
+
+.pull-right[
+
+```{r echo=F, out.height=350, out.width=650}
+knitr::include_graphics("img/5pl_model.png")
+```
+
+
+]
+
+
+
+---
 
 # Check your model results
 
 .left-column[
-The automated data processing in this app allows you to convert your median fluorescence intensity (MFI) data into relative antibody units (RAU) by fitting a 5-parameter logistic function to the standard curve on a per-antigen level. 
+The automated data processing in this app allows you to convert your median fluorescence intensity (MFI) data into relative antibody units (RAU) by fitting a 5-parameter logistic (5PL) regression model to the standard curve on a per-antigen level. 
 
-This log-log model is used to obtain a more linear relationship.
+This log-log model is used to obtain a more linear relationship. 
 
 **`r fontawesome::fa("lightbulb")` Tip:** In general your model results for each antigen should look relatively linear.
 ]
