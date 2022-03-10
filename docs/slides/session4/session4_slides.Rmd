@@ -68,9 +68,9 @@ xaringanExtra::use_broadcast()
 
 ```{r metathis, echo=FALSE}
 meta() %>%
-  meta_name("github-repo" = "shaziaruybal/covidClassifyR-workshop/slides/session3") %>% 
+  meta_name("github-repo" = "shaziaruybal/covidClassifyR-workshop/slides/session4") %>% 
   meta_social(
-    title = "Session 4: Data preparation and how to go from Luminex machine to ClassifyR Shiny web application",
+    title = "Session 4: Data preparation and how to go from Luminex machine to covidClassifyR Shiny web application",
     description = paste(
       "A four-day workshop on how to use the covidClassifyR Shiny web application",
       "Created for researchers from the Papua New Guinea Institute of Medical Research and partner institutions"
@@ -278,7 +278,8 @@ knitr::include_graphics("img/import_buttons.png")
 ]
 
 .pull-right[
--Type directly in the text box to change the experiment name that best describes your particular data/Luminex run. For example, you can label it as “MyExperimentName_Plate01”. 
+
+- Type directly in the text box to change the experiment name that best describes your particular data/Luminex run. For example, you can label it as “MyExperimentName_Plate01”. 
 - The analysis date will default to today’s date, but you can modify this by clicking on the date and selecting the date in the calendar. 
 - You can also insert experiment notes to provide more details or notes, as necessary. These notes will be displayed on your quality control report when you download it.
 
@@ -355,7 +356,7 @@ Use the browse button to navigate to your files and upload them.
 
 # `r fa("laptop-code")` Demo
 
-<video width="1530" height="610" controls>
+<video width="1330" height="410" controls>
   <source src="screen_records/import_data_demo.mp4" type="video/mp4"> 
 </video>
 
