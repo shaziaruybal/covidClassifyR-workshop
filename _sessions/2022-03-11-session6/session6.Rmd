@@ -1,7 +1,7 @@
 ---
-title: "Session 5"
+title: "Session 6"
 description: |
-  How to perform quality control of your data using the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app
+  Generate your quality control report and look at your processed data
 author: 
 - name: Shazia Ruybal-Pesántez, PhD
   url: https://shaziaruybal.com
@@ -21,18 +21,19 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r libraries}
 library(distilltools)
 ```
+
 ### Description:
-In this session you will go over how to perform quality control of your data using the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app and how to interpret the automated quality control plots.
+In this session you will go over how to download your processed data and quality control report and how to interpret them. 
 
 ### <i class="fas fa-calendar-alt"></i> Session details:
-11th March 2022, 09:00-09:30-am GMT+10
+11th March 2022, 09:30-10:00-am GMT+10
 
 ### <i class="fas fa-book-open"></i> Materials:
 ```{r icon-links}
 # [TODO]: css styling for .icon-link and .icon-link:hover
 icon_link(icon = "fas fa-file-pdf",
           text = "Slides",
-          url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session5/session5_slides.html")
+          url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session6/session6_slides.html")
 
 icon_link(icon = "fas fa-play-circle",
           text = "Recording",
