@@ -84,7 +84,7 @@ In this four-day workshop you will learn about the data generated using the COVI
 - **Day 2:** 
 
   - [Session 4](sessions/2022-03-11-session4/index.html): Data preparation and how to go from Luminex machine to [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app
-  - Session 5: How to perform quality control of your data 
+  - [Session 5](sessions/2022-03-11-session5/index.html): How to perform quality control of your data 
   - Session 6: Generate your quality control report and look at your processed data
   
 <aside>
