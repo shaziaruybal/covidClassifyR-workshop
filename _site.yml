@@ -12,7 +12,7 @@ collections:
     categories: true
     categories_metadata: true
     authors_metadata: false
-    feed_items_max: 5 
+    feed_items_max: 12 
 navbar:
   right:
     - icon: fas fa-home
