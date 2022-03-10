@@ -103,12 +103,21 @@ class: left
 
 # Recap
 
-### `r fontawesome::fa("check-square")` **Session 3** gave you an overview of the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny app
+--
+
+### `r fontawesome::fa("check-square")` **[Session 1](https://shaziaruybal.github.io/covidClassifyR-workshop/sessions/2022-03-10-session1/index.html)** gave you an overview of the Luminex technology and the COVID-19 multi-antigen serological assay that was established in PNG
+
+--
+
+### `r fontawesome::fa("check-square")` **Session 2** gave you an overview of the purpose of serosurveillance and insights into the COVID-19 sero-surveys that have been carried out in PNG 
+--
+
+### `r fontawesome::fa("check-square")` **[Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html)** gave you an overview of the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny app
 
 --
 
 .footnote[
-For the materials for session 3 see the [workshop website `r fontawesome::fa("external-link-alt")`](https://shaziaruybal.github.io/covidClassifyR-workshop/sessions/2022-03-10-session3/index.html) 
+For all the workshop materials see the [workshop website `r fontawesome::fa("external-link-alt")`](https://shaziaruybal.github.io/covidClassifyR-workshop/materials.html) 
 ]
 
 ---
@@ -143,7 +152,7 @@ name: data-reqs
 
 # Raw data requirements
 
-#### Your raw data should be exported in .xlsx format 
+#### Your raw data should be exported from the Luminex machine in .xlsx format 
 
 --
 
@@ -161,9 +170,6 @@ name: data-reqs
 
 **`r fontawesome::fa("lightbulb")` Tip:** the Shiny app will interpret anything that starts with "S" as a Standard and will use the antibody data from these samples to calculate your standard curve. Similarly, it will interpret anything that starts with "B" as a Blank sample and anything else as an "Unknown".
 
---
-
-**`r fontawesome::fa("lightbulb")` Tip:** by supplying the plate layout, the Shiny app will match your sample codes/IDs to the appropriate antibody data from the unknown samples
 
 ---
 name: plate-reqs
@@ -174,7 +180,7 @@ name: plate-reqs
 
 --
 
-For each 96-well plate that you run on the Luminex machine, prepare a plate layout that includes the sample labels that will match your raw data. The application will match the raw data to the corresponding sample based on the plate layout that you import.
+For each 96-well plate that you run on the Luminex machine, prepare a plate layout that includes the sample labels that will match your raw data. By supplying the plate layout, the Shiny application will match the raw data to the corresponding sample based on the plate layout that you import.
 
 --
 
@@ -221,7 +227,7 @@ class: inverse, middle, center
 
 ---
 
-# `r fa("book-open")` Questions
+# `r fa("book-open")` Quiz
 
 --
 
@@ -263,26 +269,26 @@ class: inverse, middle, center
 ![](img/import_screenshot.png)
 ]
 
-.panel[.panel-name[Experiment info]
+.panel[.panel-name[Experiment info test]
 
+.pull-left[
 ```{r, echo=F, out.height = 400, out.width=350}
 knitr::include_graphics("img/import_buttons.png")
 ```
-
-<!-- ![](img/import_buttons.png) -->
 ]
 
-.panel[.panel-name[Experiment info details]
+.pull-right[
 - You can change the experiment name by typing directly in the text box with the experiment name that best describes your particular data/Luminex run. For example, you can label it as “MyExperimentName_Plate01”. 
 - The analysis date will default to Today’s date, but you can modify this by clicking on the date and selecting the date in the calendar. 
 - You can also insert experiment notes to provide more details or notes, as necessary. These notes will be displayed on your quality control report when you download it.
 
 **`r fontawesome::fa("lightbulb")` Tip: ** Try to keep your experiment name/filename free of spaces and instead use “_” or “-”. All of your downloadable files (processed data, quality control report, etc) will be labeled as “experiment1_2022-03-06”.
 ]
+]
 
 .panel[.panel-name[Change the experiment info]
 <video width="1330" height="410" controls>
-  <source src="img/edit_import.mp4" type="video/mp4"> 
+  <source src="screen_records/edit_import.mp4" type="video/mp4"> 
 </video>
 ]
 
@@ -298,7 +304,7 @@ Use the browse button to navigate to your files and upload them.
 # `r fa("magic")` Voila!
 
 <video width="1330" height="410" controls>
-  <source src="img/upload_files.mp4" type="video/mp4"> 
+  <source src="screen_records/upload_files.mp4" type="video/mp4"> 
 </video>
 
 ---
@@ -394,7 +400,7 @@ class: inverse
 ### [`r icon::fa("youtube")` Recording]()  
 ### [`r icon::fa("laptop-code")` `covidClassifyR`](https://shaziaruybal.shinyapps.io/covidClassifyR)  
 ### [`r fontawesome::fa("globe")` Workshop materials](https://shaziaruybal.github.io/covidClassifyR-workshop/materials.html)  
-### [`r fontawesome::fa("image")` Slides for Session 3](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session4/session4_slides.html)
+### [`r fontawesome::fa("image")` Slides for Session 4](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session4/session4_slides.html)
 ]
 
 
