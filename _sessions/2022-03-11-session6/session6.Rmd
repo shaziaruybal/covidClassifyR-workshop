@@ -1,7 +1,7 @@
 ---
 title: "Session 6"
 description: |
-  Generate your quality control report and look at your processed data
+  Download your quality control report and processed data
 author: 
 - name: Shazia Ruybal-Pesántez, PhD
   url: https://shaziaruybal.com
