@@ -236,6 +236,15 @@ You can download your quality control report, which includes all of the plots in
 #### `r fontawesome::fa("star")` Bonus: try changing the experiment info, date and notes and download the processed data and QC
 
 ---
+class: inverse, middle, center
+
+# `r fontawesome::fa("clipboard-check")`
+
+## Next session:
+
+### Introduction to the classification algorithm
+
+---
 
 # Acknowledgments
 

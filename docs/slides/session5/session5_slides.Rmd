@@ -293,6 +293,15 @@ The results from the data processing are displayed in an interactive table withi
 </video>
 
 ---
+class: inverse, middle, center
+
+# `r fontawesome::fa("clipboard-check")`
+
+## Next session:
+
+### Download your processed data and QC report
+
+---
 
 # Acknowledgments
 

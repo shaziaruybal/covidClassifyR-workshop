@@ -347,13 +347,7 @@ Use the browse button to navigate to your files and upload them.
 # Check the plate layout
 
 .pull-left[
-You can use the “Check the plate layout” tab to make sure the plate layout looks as expected. It is very important to make sure your samples are labeled correctly so that they are interpreted correctly by the app:
-
-- **Standards:** labels start with ‘S’ and then a number as required (e.g. S1, S2, S3 or Standard1, Standard2, Standard3)
-
-- **Blanks:** labels start with ‘B’ and then a number as required if there is more than one blank sample (.e.g ‘B1’, ‘B2’, or ‘Blank 1’, ‘Blank2’ etc).
-
-- **Unknown samples:** label your unknown samples according to your specific sample codes (e.g. ABC001, ABC002)
+You can use the “Check the plate layout” tab to make sure the plate layout looks as expected. It is very important to make sure your samples are labeled correctly so that they are interpreted correctly by the app.
 
 `r fa("check-square")` Check that the plate layout file you uploaded was the correct one, by looking at the “Plate layout filename” directly under the tab. If it is the wrong one you can click on “Browse” again and upload the correct file.
 
@@ -370,6 +364,15 @@ You can use the “Check the plate layout” tab to make sure the plate layout l
 <video width="1330" height="410" controls>
   <source src="screen_records/import_data_demo.mp4" type="video/mp4"> 
 </video>
+
+---
+class: inverse, middle, center
+
+# `r fontawesome::fa("clipboard-check")`
+
+## Next session:
+
+### Quality control of your data
 
 ---
 
