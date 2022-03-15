@@ -1,22 +1,20 @@
 [
   {
-    "path": "sessions/2022-03-11-session4/",
-    "title": "Session 4",
-    "description": "Data preparation and how to go from Luminex machine to covidClassifyR Shiny app",
+    "path": "sessions/2022-03-17-session7/",
+    "title": "Session 7",
+    "description": "Recap of how to perform quality control of your data",
     "author": [
       {
         "name": "Shazia Ruybal-Pesántez, PhD",
         "url": "https://shaziaruybal.com"
       }
     ],
-    "date": "2022-03-11",
-    "categories": [
-      "Day 2"
-    ],
-    "contents": "\n\n\n\nDescription:\nIn this session you will go over how to prepare your data and upload your data to the covidClassifyR app, and how to check the Luminex run info, raw data file and user-supplied plate layout\n Session details:\n11th March 2022, 08:30-09:00am GMT+10\n Materials:\n\n Slides Recording\n\nAcknowledgments\nThis workshop was designed for researchers from the Papua New Guinea Institute for Medical Research and partner institutions, and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano.\nFunding for this workshop was provided by a Regional Collaborations Programme COVID-19 Digital Grant from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.\n\n\n\n",
+    "date": "2022-03-17",
+    "categories": [],
+    "contents": "\n\n\n\nDescription:\nIn this session we have a quick recap of how to perform and interpret the quality control report of your data.\n Session details:\n17th March 2022, 08:30-09:00-am GMT+10\n Materials:\n\n Slides Recording\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-03-10T21:47:03+11:00",
-    "input_file": {}
+    "last_modified": "2022-03-15T18:46:57+11:00",
+    "input_file": "session7.knit.md"
   },
   {
     "path": "sessions/2022-03-11-session5/",
@@ -51,6 +49,25 @@
     "preview": {},
     "last_modified": "2022-03-11T01:40:39+11:00",
     "input_file": {}
+  },
+  {
+    "path": "sessions/2022-03-11-session4/",
+    "title": "Session 4",
+    "description": "Data preparation and how to go from Luminex machine to covidClassifyR Shiny app",
+    "author": [
+      {
+        "name": "Shazia Ruybal-Pesántez, PhD",
+        "url": "https://shaziaruybal.com"
+      }
+    ],
+    "date": "2022-03-11",
+    "categories": [
+      "Day 2"
+    ],
+    "contents": "\n\n\n\nDescription:\nIn this session you will go over how to prepare your data and upload your data to the covidClassifyR app, and how to check the Luminex run info, raw data file and user-supplied plate layout\n Session details:\n11th March 2022, 08:30-09:00am GMT+10\n Materials:\n\n Slides Recording\n\nAcknowledgments\nThis workshop was designed for researchers from the Papua New Guinea Institute for Medical Research and partner institutions, and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano.\nFunding for this workshop was provided by a Regional Collaborations Programme COVID-19 Digital Grant from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-03-15T21:40:18+11:00",
+    "input_file": "session4.knit.md"
   },
   {
     "path": "sessions/2022-03-10-session1/",
