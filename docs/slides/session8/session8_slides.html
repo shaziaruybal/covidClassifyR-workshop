@@ -174,11 +174,29 @@ background-size: 50%
 
 - #### Decision trees form the basis of the random forest algorithm. Each decision tree results in a prediction. 
 
-- #### This example has 3 classes (or groups). If we want to "train" someone to correctly them by **color** and **underlined/not underlined**, how would you do this?
+- #### This example has 3 classes (or groups). If we want to "train"  to correctly classify them by **color** and **underlined/not underlined**, how would you do this?
 
 
 
-.footenote[
+.footnote[
+.bottom[
+_[Resource <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"/></svg>](https://towardsdatascience.com/understanding-random-forest-58381e0602d2)_
+]]
+]
+
+---
+background-image: url("img/eg_prediction.jpeg")
+background-position: right center
+background-size: 50%
+
+# <svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"/></svg> Predictions 
+
+.pull-left[
+
+- #### The resulting predictions from a large number of decision trees ("ensemble") are combined to determine which prediction has the most "votes"
+
+
+.footnote[
 .bottom[
 _[Resource <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"/></svg>](https://towardsdatascience.com/understanding-random-forest-58381e0602d2)_
 ]]
@@ -188,13 +206,16 @@ _[Resource <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="heigh
 # <svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M640 264v-16c0-8.84-7.16-16-16-16H344v-40h72c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H224c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h72v40H16c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h104v40H64c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h304v40h-56c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h160c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32h-56v-40h104c8.84 0 16-7.16 16-16zM256 128V64h128v64H256zm-64 320H96v-64h96v64zm352 0h-96v-64h96v64z"/></svg> Our COVID-19 random forest classification algorithm
 
 --
-- #### The features from all 11 antigens are used to train the RF algorithm (presence and level of IgG antibodies become our "colors" and "underlined" features)
+- #### The features from all 11 antigens are used to train the RF algorithm (presence and level of IgG antibodies become our classifying features)
 
 --
 - #### We train the RF algorithm using samples that we know have been exposed to SARS-CoV-2, so it learns what a "positive" sample antibody profile looks like
 
 --
 - #### We train the RF algorithm using samples that we know have **not** been exposed to SARS-CoV-2, so it learns what a "negative" sample antibody profile looks like
+
+--
+- #### The result is a prediction of either seropositive (recently exposed to SARS-CoV-2) or seronegative (not recently exposed) for each sample based on the ensemble of decision trees
 
 ---
 

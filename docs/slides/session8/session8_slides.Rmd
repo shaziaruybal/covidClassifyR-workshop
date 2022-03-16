@@ -208,11 +208,29 @@ background-size: 50%
 
 - #### Decision trees form the basis of the random forest algorithm. Each decision tree results in a prediction. 
 
-- #### This example has 3 classes (or groups). If we want to "train" someone to correctly them by **color** and **underlined/not underlined**, how would you do this?
+- #### This example has 3 classes (or groups). If we want to "train"  to correctly classify them by **color** and **underlined/not underlined**, how would you do this?
 
 
 
-.footenote[
+.footnote[
+.bottom[
+_[Resource `r fontawesome::fa("external-link-alt")`](https://towardsdatascience.com/understanding-random-forest-58381e0602d2)_
+]]
+]
+
+---
+background-image: url("img/eg_prediction.jpeg")
+background-position: right center
+background-size: 50%
+
+# `r fa("network-wired")` Predictions 
+
+.pull-left[
+
+- #### The resulting predictions from a large number of decision trees ("ensemble") are combined to determine which prediction has the most "votes"
+
+
+.footnote[
 .bottom[
 _[Resource `r fontawesome::fa("external-link-alt")`](https://towardsdatascience.com/understanding-random-forest-58381e0602d2)_
 ]]
@@ -222,13 +240,16 @@ _[Resource `r fontawesome::fa("external-link-alt")`](https://towardsdatascience.
 # `r fa("network-wired")` Our COVID-19 random forest classification algorithm
 
 --
-- #### The features from all 11 antigens are used to train the RF algorithm (presence and level of IgG antibodies become our "colors" and "underlined" features)
+- #### The features from all 11 antigens are used to train the RF algorithm (presence and level of IgG antibodies become our classifying features)
 
 --
 - #### We train the RF algorithm using samples that we know have been exposed to SARS-CoV-2, so it learns what a "positive" sample antibody profile looks like
 
 --
 - #### We train the RF algorithm using samples that we know have **not** been exposed to SARS-CoV-2, so it learns what a "negative" sample antibody profile looks like
+
+--
+- #### The result is a prediction of either seropositive (recently exposed to SARS-CoV-2) or seronegative (not recently exposed) for each sample based on the ensemble of decision trees
 
 ---
 
