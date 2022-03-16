@@ -94,8 +94,8 @@ In this four-day workshop you will learn about the data generated using the COVI
 
 - **Day 3:** 
 
-  - [Session 7](sessions/2022-03-11-session7/index.html): Recap of how to perform quality control of your data 
-  - [Session 8](sessions/2022-03-11-session8/index.html): Introduction to the COVID-19 classification algorithm
+  - [Session 7](sessions/2022-03-17-session7/index.html): Recap of how to perform quality control of your data 
+  - [Session 8](sessions/2022-03-17-session8/index.html): Introduction to the COVID-19 classification algorithm
   - Session 9: How to apply the classification algorithm to your data
   
 <aside>
