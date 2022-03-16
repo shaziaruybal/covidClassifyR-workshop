@@ -1,0 +1,44 @@
+---
+title: "Session 7"
+description: |
+  Recap of how to perform quality control of your data
+author: 
+- name: Shazia Ruybal-Pesántez, PhD
+  url: https://shaziaruybal.com
+  affiliation: Walter & Eliza Hall Institute/Burnet Institute, Australia
+  affiliation_url: https://www.burnet.edu.au/people/701_shazia_ruybal
+date: 2022-03-17
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - "Day 3"
+citation: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r libraries}
+library(distilltools)
+```
+
+### Description:
+In this session we have a quick recap of how to perform and interpret the quality control report of your data. 
+
+### <i class="fas fa-calendar-alt"></i> Session details:
+17th March 2022, 08:30-09:00-am GMT+10
+
+### <i class="fas fa-book-open"></i> Materials:
+
+```{r icon-links}
+icon_link(icon = "fas fa-file-pdf",
+          text = "Slides",
+          url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session7/session7_slides.html")
+
+icon_link(icon = "fas fa-play-circle",
+          text = "Recording",
+          url = "")
+```
+  
