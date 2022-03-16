@@ -17,14 +17,6 @@
       <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Session 6</title>
-      <dc:creator>Shazia Ruybal-Pesántez, PhD</dc:creator>
-      <link>htttps://shaziaruybal.github.io/sessions/2022-03-11-session6</link>
-      <description>Download your quality control report and processed data</description>
-      <guid>htttps://shaziaruybal.github.io/sessions/2022-03-11-session6</guid>
-      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Session 4</title>
       <dc:creator>Shazia Ruybal-Pesántez, PhD</dc:creator>
       <link>htttps://shaziaruybal.github.io/sessions/2022-03-11-session4</link>
@@ -39,6 +31,14 @@
       <link>htttps://shaziaruybal.github.io/sessions/2022-03-11-session5</link>
       <description>How to perform quality control of your data using the covidClassifyR app</description>
       <guid>htttps://shaziaruybal.github.io/sessions/2022-03-11-session5</guid>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Session 6</title>
+      <dc:creator>Shazia Ruybal-Pesántez, PhD</dc:creator>
+      <link>htttps://shaziaruybal.github.io/sessions/2022-03-11-session6</link>
+      <description>Download your quality control report and processed data</description>
+      <guid>htttps://shaziaruybal.github.io/sessions/2022-03-11-session6</guid>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
