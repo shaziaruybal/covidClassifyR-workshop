@@ -68,15 +68,15 @@ xaringanExtra::use_broadcast()
 
 ```{r metathis, echo=FALSE}
 meta() %>%
-  meta_name("github-repo" = "shaziaruybal/covidClassifyR-workshop/slides/session6") %>% 
+  meta_name("github-repo" = "shaziaruybal/covidClassifyR-workshop/slides/session7") %>% 
   meta_social(
-    title = "Session 7: Recap of how to perform quality control of your dataa",
+    title = "Session 7: Recap of how to perform quality control of your data",
     description = paste(
       "A four-day workshop on how to use the covidClassifyR Shiny web application",
       "Created for researchers from the Papua New Guinea Institute of Medical Research and partner institutions"
     ),
     url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session7/session7_slides.html",
-    image = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session6/img/social-share-card.png",
+    image = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session7/img/social-share-card.png",
     image_alt = paste(
       "Title slide of Session 7: Recap of how to perform quality control of your data", 
       "created for researchers from the Papua New Guinea Institute of Medical Research and partner institutions"
