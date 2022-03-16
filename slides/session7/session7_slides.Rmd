@@ -251,11 +251,10 @@ background-size: 75%
 
 ## `r fontawesome::fa("download")` Downloading your data: recap
 
---
 ![](img/download_qc.png)
 
 --
-#### _`r fa("question-circle")` What do we download if we click on "Download standard curve data"_
+### _`r fa("question-circle")` What do we download if we click on "Download standard curve data"_
 
 ---
 background-image: url(img/eg_std.png)
@@ -268,7 +267,6 @@ background-size: 75%
 
 ## `r fontawesome::fa("download")` Downloading your data: recap
 
---
 ![](img/download_qc.png)
 
 --
