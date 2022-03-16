@@ -1,5 +1,5 @@
 ---
-title: "Session 8: Introduction to the COVID-19 classification algorithm"
+title: "Session 8"
 description: |
   Introduction to the COVID-19 classification algorithm that can be applied in the covidClassifyR Shiny app
 author: 
