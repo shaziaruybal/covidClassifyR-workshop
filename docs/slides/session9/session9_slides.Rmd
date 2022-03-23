@@ -271,12 +271,12 @@ class: inverse
 
 .pull-right[
 
-### Session 8 Resources:
+### Session 9 Resources:
 
 ### [`r icon::fa("youtube")` Recording]()  
 ### [`r icon::fa("laptop-code")` `covidClassifyR`](https://shaziaruybal.shinyapps.io/covidClassifyR)  
 ### [`r fontawesome::fa("globe")` Workshop materials](https://shaziaruybal.github.io/covidClassifyR-workshop/materials.html)  
-### [`r fontawesome::fa("image")` Slides for Session 8](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session7/session8_slides.html)
+### [`r fontawesome::fa("image")` Slides for Session 9](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session7/session9_slides.html)
 ]
 
 
