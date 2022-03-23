@@ -176,7 +176,7 @@ class: middle, center
 
 ---
 
-<video width="1330" height="410" controls>
+<video width="1430" height="510" controls>
   <source src="img/eg_classify.mp4" type="video/mp4"> 
 </video>
 
