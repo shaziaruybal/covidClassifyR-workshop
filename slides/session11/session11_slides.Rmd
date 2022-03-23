@@ -1,0 +1,223 @@
+---
+title: "Session 11: How to visualize your data in the covidClassifyR app"
+author: 
+  - "Dr Shazia Ruybal-Pesántez"
+institute: "Presented at the [covidClassifyR Shiny app workshop](https://shaziaruybal.github.io/covidClassifyR-workshop) for researchers from PNGIMR and partner institutions"  
+date: '2022-03-24'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: false
+      titleSlideClass: ["left", "bottom", "my-title"]
+      beforeInit: ["https://platform.twitter.com/widgets.js"]
+    seal: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+
+
+library(xaringanthemer)
+library(xaringanExtra)
+library(showtext)
+library(fontawesome)
+library(metathis)
+library(countdown)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+style_duo_accent(
+  primary_color = "#2372B9",
+  secondary_color = "#174a79",
+  inverse_header_color = "#FFFFFF",  
+  header_color = "#2372B9", 
+  code_highlight_color = "#93c54b",
+  code_inline_color = "#93c54b",
+  text_color = "#3d3d3d", 
+  link_color = "#93c54b", 
+  inverse_link_color =  "#93c54b",
+  header_font_google = google_font("Roboto"),
+  text_font_google   = google_font("News Cycle", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r xaringan-extras, echo=FALSE}
+xaringanExtra::use_scribble()
+xaringanExtra::use_panelset()
+xaringanExtra::use_clipboard()
+# xaringanExtra::use_share_again()
+xaringanExtra::use_webcam()
+xaringanExtra::use_broadcast()
+# xaringanExtra::use_progress_bar(color = "blue", location = "bottom")
+```
+
+```{r metathis, echo=FALSE}
+meta() %>%
+  meta_name("github-repo" = "shaziaruybal/covidClassifyR-workshop/slides/session10") %>% 
+  meta_social(
+    title = "Session 11: How to visualize your data in the covidClassifyR app",
+    description = paste(
+      "A four-day workshop on how to use the covidClassifyR Shiny web application",
+      "Created for researchers from the Papua New Guinea Institute of Medical Research and partner institutions"
+    ),
+    url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session11/session11_slides.html",
+    image = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session10/img/social-share-card.png",
+    image_alt = paste(
+      "Title slide of Session 11: How to visualize your data in the covidClassifyR app", 
+      "created for researchers from the Papua New Guinea Institute of Medical Research and partner institutions"
+    ),
+    og_type = "website",
+    og_author = "Shazia Ruybal-Pesántez",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@DrShaziaRuybal",
+    twitter_site = "@DrShaziaRuybal"
+  )
+```
+
+class: title-slide, middle, left
+
+## `r rmarkdown::metadata$title`
+
+### `r rmarkdown::metadata$author`  
+`r rmarkdown::metadata$institute`
+
+`r rmarkdown::metadata$date`
+
+---
+class: middle, center, inverse
+
+## Workshop materials
+
+## For all the workshop materials see the [workshop website `r fontawesome::fa("external-link-alt")`](https://shaziaruybal.github.io/covidClassifyR-workshop/materials.html) 
+
+
+---
+
+class: center
+# `r fontawesome::fa("chalkboard")`
+# Today we will cover:
+
+--
+### How to perform preliminary visualizations of your data 
+
+--
+
+### You can find the app [here `r fontawesome::fa("external-link-alt")`](https://shaziaruybal.shinyapps.io/covidClassifyR)
+
+---
+
+# `r fa("chart-bar")` Visualization options
+
+--
+### - You can take a look at the median fluorescent intensity (MFI) values for each antigen before the conversion to RAU
+
+--
+### - You can take a look at the converted relative antibody units (RAU) for each antigen
+
+--
+### - If you applied the classification algorithm, you can take a look at the exposure status predictions for each classifier
+
+---
+class: inverse
+
+# MFI visualization
+
+![](img/viz_mfi.png)
+
+---
+class: inverse
+
+# RAU visualization
+
+![](img/viz_rau.png)
+
+---
+class: inverse
+
+# Exposure status visualization
+
+![](img/viz_exposure.png)
+---
+class: center, middle
+
+# `r fa("book-open")` Feedback
+
+### _Are there any other interactive visualizations that may be useful?_
+
+---
+class: inverse, middle, center
+
+# `r fontawesome::fa("clipboard-check")`
+
+## Next session:
+
+### Let's explore the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app together!
+
+---
+
+# Acknowledgments
+
+- Dr Maria Ome-Kaius and Dr Fiona Angrisano
+- PNGIMR and partner institutions
+- WEHI & Burnet Institute
+- All of you for attending! 
+
+*We are extremely grateful for financial support to develop and host the covidClassifyR Shiny web application, and to host these virtual workshops through the [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources.*
+
+The scripts and functions used in [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) were developed by Shazia Ruybal-Pesántez, with contributions from the following researchers: Eamon Conway, Connie Li Wan Suen, Narimane Nekkab and Michael White.
+
+
+.footnote[
+_These slides were created using the R packages:  
+[xaringan](https://github.com/yihui/xaringan), 
+[xaringanthemer](https://github.com/gadenbuie/xaringanthemer), 
+[xaringanExtra](https://github.com/gadenbuie/xaringanExtra)_ 
+]
+
+---
+name: contact
+class: inverse
+
+.pull-left[
+.center[
+### Dr Shazia Ruybal-Pesántez 
+
+<img style="border-radius: 50%;" src="https://shaziaruybal.github.io/covidClassifyR-workshop/images/shazia.png" width="250px"/>
+
+#### Contact details
+
+[`r fa(name = "envelope")` ruybal.s@wehi.edu.au](mailto:ruybal.s@wehi.edu.au)  
+[`r fa(name = "twitter")` @DrShaziaRuybal](https://twitter.com/DrShaziaRuybal)
+
+]]
+
+.pull-right[
+
+### Session 11 Resources:
+
+### [`r icon::fa("youtube")` Recording]()  
+### [`r icon::fa("laptop-code")` `covidClassifyR`](https://shaziaruybal.shinyapps.io/covidClassifyR)  
+### [`r fontawesome::fa("globe")` Workshop materials](https://shaziaruybal.github.io/covidClassifyR-workshop/materials.html)  
+### [`r fontawesome::fa("image")` Slides for Session 11](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session11/session11_slides.html)
+]
+
+
+---
+class: inverse, middle, center
+
+# `r fa("question-circle")` Questions?
