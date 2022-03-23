@@ -1,0 +1,49 @@
+---
+title: "Session 12"
+description: |
+  Demo and troubleshooting the covidClassifyR app
+author: 
+- name: Shazia Ruybal-Pesántez, PhD
+  url: https://shaziaruybal.com
+  affiliation: Walter & Eliza Hall Institute/Burnet Institute, Australia
+  affiliation_url: https://www.burnet.edu.au/people/701_shazia_ruybal
+date: 2022-03-24
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - "Day 4"
+citation: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r libraries}
+library(distilltools)
+```
+
+### Description:
+In this session we will go over a live demo of the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app and go over troubleshooting the app.
+
+### <i class="fas fa-calendar-alt"></i> Session details:
+24th March 2022, 09:30-10:00 am GMT+10
+
+### <i class="fas fa-book-open"></i> Materials:
+
+```{r icon-links}
+icon_link(icon = "fas fa-file-pdf",
+          text = "Slides",
+          url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session12/session12_slides.html")
+
+icon_link(icon = "fas fa-play-circle",
+          text = "Recording",
+          url = "")
+```
+  
+# Acknowledgments {.appendix}
+
+This workshop was designed for researchers from the Papua New Guinea Institute for Medical Research and partner institutions, and led by Dr. Shazia Ruybal-Pesántez, Dr. Maria Ome-Kaius and Dr. Fiona Angrisano. 
+
+Funding for this workshop was provided by a [Regional Collaborations Programme COVID-19 Digital Grant](https://www.science.org.au/news-and-events/news-and-media-releases/regional-research-set-get-digital-boost) from the Australian Academy of Science and Australian Department of Industry, Science, Energy and Resources. 

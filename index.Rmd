@@ -107,7 +107,7 @@ In this four-day workshop you will learn about the data generated using the COVI
 
   - [Session 10](sessions/2022-03-24-session10/index.html): Recap of classification algorithm
   - [Session 11](sessions/2022-03-24-session11/index.html): How to visualize your data in the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) app
-  - Session 12: Bring your own data to work on
+  - [Session 12](sessions/2022-03-24-session12/index.html): Demo and troubleshooting the [`covidClassifyR`](https://shaziaruybal.shinyapps.io/covidclassifyr) Shiny application
   
 <aside>
 **Day 4 leaders:** <br/> Dr Ruybal-Pesántez <br/><br/>
