@@ -332,7 +332,7 @@ class: inverse
 
 ### Session 7 Resources:
 
-### [`r icon::fa("youtube")` Recording]()  
+### [`r icon::fa("youtube")` Recording](https://youtu.be/OB1tH3r2MS4)  
 ### [`r icon::fa("laptop-code")` `covidClassifyR`](https://shaziaruybal.shinyapps.io/covidClassifyR)  
 ### [`r fontawesome::fa("globe")` Workshop materials](https://shaziaruybal.github.io/covidClassifyR-workshop/materials.html)  
 ### [`r fontawesome::fa("image")` Slides for Session 7](https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session7/session7_slides.html)

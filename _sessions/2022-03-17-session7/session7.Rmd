@@ -39,7 +39,7 @@ icon_link(icon = "fas fa-file-pdf",
 
 icon_link(icon = "fas fa-play-circle",
           text = "Recording",
-          url = "")
+          url = "https://youtu.be/OB1tH3r2MS4")
 ```
   
 # Acknowledgments {.appendix}

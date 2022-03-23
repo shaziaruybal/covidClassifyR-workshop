@@ -76,7 +76,7 @@ meta() %>%
       "Created for researchers from the Papua New Guinea Institute of Medical Research and partner institutions"
     ),
     url = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session11/session11_slides.html",
-    image = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session10/img/social-share-card.png",
+    image = "https://shaziaruybal.github.io/covidClassifyR-workshop/slides/session11/img/social-share-card.png",
     image_alt = paste(
       "Title slide of Session 11: How to visualize your data in the covidClassifyR app", 
       "created for researchers from the Papua New Guinea Institute of Medical Research and partner institutions"
